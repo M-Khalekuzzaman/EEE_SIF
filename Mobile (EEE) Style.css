@@ -1,0 +1,367 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+/* navbar section style starts here */
+
+.navbar-section{
+   max-width: 100%;
+   max-width:auto ;
+   background-color: #0c6168;
+
+}
+.row{
+    width: 100%;
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+.head-section{
+  
+    padding: 0% 1%;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+   
+    
+ 
+}
+
+
+
+.nav-menu ul li a{
+   
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    font-family: "Trirong", serif; 
+    transition: 0.4s;
+
+}
+.nav-menu ul li a:hover{
+background-color: black;
+border-radius: 100px;
+ opacity: 0.5;
+}
+.nav-heading h1{
+    color: white;
+    text-align: center;
+    font-family: "Trirong", serif;
+}
+.nav-heading h2{
+    color: #251102;
+    font-weight: bolder;
+    
+}
+.dropdown-container{
+    display: block;
+    position: relative;
+}
+.dropdown-contain {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: #0c6168;
+    text-align: left;
+    min-width: 100px;
+    display: none;
+    
+   
+  
+}
+.dropdown-container:hover .dropdown-contain{
+    display: block;
+  
+}
+
+
+
+.dropdown-contain a{
+    display: block;
+}
+.dropdown-contain a{
+    background-color: gray;
+    
+}
+
+
+
+
+.row::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/* navbar section style ends here */
+
+/* main section style starts here */
+.row{
+    width: 100%;
+}
+
+
+.about-ru{
+
+
+
+    text-align: center;
+    
+  
+   
+    
+
+
+}
+.about-ru-contents{
+background-color: darkcyan;
+padding: 5px 7px;
+   
+}
+.about-ru-contents .head-ru{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+   
+
+
+}
+.about-ru-contents h2 a{
+  
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+    border: 200px 50px;
+    padding: 1% 3%;
+    border-radius: 50px;
+    background-color: rebeccapurple;
+   
+    
+
+    
+}
+.about-ru-contents h2 a:hover{
+     background-color: black;
+     opacity: 0.5;
+}
+.about-ru-contents p{
+    color: white;
+    text-align: justify;
+    padding: 10px;
+}
+.row::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+
+
+
+
+/* main section style ends here */
+
+/* information section style starts here */
+.Information{
+    padding: 0% 2%;
+    background-color: darkslategray;
+
+}
+.Information .student-card{
+ background-color: darkkhaki;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.3s;
+    height: auto;
+}
+.Information .student-card:hover{
+    box-shadow: 0px 4px 8px 5px gold;
+}
+.student-img img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+ background-color: chocolate;
+    margin-top: 20px;
+    border-radius: 60px;
+
+}
+.student-card{
+    text-align: center;
+    width: 100%;
+}
+.student-name h2 {
+     text-align: center;
+     font-weight: bolder;
+     font-size: 1.2rem;
+     font-family: Arial, Helvetica, sans-serif;
+     color: white;
+     background-color: teal;
+     padding: 2px;
+     border-radius: 10px;
+
+
+}
+.student-desc ul li{
+    text-align:left;
+    padding: 9px;
+    margin-left: 25px;
+   
+
+}
+.Information::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+
+
+/* information section style ends here */
+
+@media (min-width:576px) {
+    .col-sm-1 {width: 8.33%;}
+    .col-sm-2 {width: 16.66%;}
+    .col-sm-3 {width: 25%;}
+    .col-sm-4 {width: 33.33%;}
+    .col-sm-5 {width: 41.66%;}
+    .col-sm-6 {width: 50%;}
+    .col-sm-7 {width: 58.33%;}
+    .col-sm-8 {width: 66.66%;}
+    .col-sm-9 {width: 75%;}
+    .col-sm-10 {width: 83.33%;}
+    .col-sm-11 {width: 91.66%;}
+    .col-sm-12 {width: 100%;}
+    }
+    
+.student-card{
+    display: table;
+    clear: both;
+    content: '';
+}
+    
+
+    /* group photo section style starts here */
+    .eee-photo img{
+        width: 220px;
+        height: 220px;
+
+    }
+    .photo{
+      background-color: #526486;
+      text-align: center;
+      color: white;
+      
+      
+    }
+    .eee-group-photo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        padding: 5px;
+       
+    }
+
+     /* group photo section style ends here */
+
+     /* EEE contact section style starts here */
+     .eee-contact{
+         padding: 1%;
+         background-color: #595b83;
+
+     }
+     .contact-desc{
+         color: white;
+         text-align: center;
+         padding: 20px 0px;
+     }
+     .map{
+         width: 100%;
+         height:250px;
+
+     }
+    
+
+
+
+
+
+      /* EEE contact section style ends here */
+
+
+
+
+
+     /* creator about section style starts here */
+.Creator-desc img{
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+
+}
+.creator{
+    background-color: silver;
+    text-align: center;
+    padding: 10px 4px;
+}
+.creator-name{
+    color: blue;
+    font-size: 1.3rem;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+.creator-bio p{
+    color: black;
+    font-size: 1.1rem;
+    text-align: justify;
+    padding: 4px;
+}
+      
+     /* creator about section style ends here */
+
+     /* footer section style starts here */
+     footer{
+         padding: 1%;
+         color: white;
+         background-color: #060930;
+     }
+     footer p{
+         line-height: 32px;
+         font-size: 0.8rem;
+         text-align: center;
+     }
+     #social{
+        text-align: center;
+        padding: 5px;
+        
+
+     }
+     #arrow{
+         color: whitesmoke;
+     }
+
+
+
+
+     
+
+
+
+
+     /* footer section style ends here */
+
+
+
+
